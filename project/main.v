@@ -18,14 +18,18 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
+//Main Module
 module top(input clk,output OUT);
 
 parameter a1=8'b10000000 ,a2=8'b01111111,a3=1'b0,a4=1'b1;//assumed some arbitrary values
+
+//initialized wires
 wire [3:0]W1;
 wire [1:0]S;
 wire [7:0]W3,W4,W5,W6;
 wire y1,y2,w1,w2,s1,s0;
 
+//initialized registers
 reg [7:0]memA[0:3];
 reg  memB[0:3];
 reg [3:0]W2;
