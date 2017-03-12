@@ -1,0 +1,4 @@
+verilog work "modules.v"
+verilog work "main.v"
+verilog work "test.v"
+verilog work "F:/softwares/14.3/ISE_DS/ISE//verilog/src/glbl.v"

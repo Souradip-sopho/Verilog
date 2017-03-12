@@ -1,0 +1,25 @@
+Running: F:\softwares\14.3\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o G:/digital/test_isim_beh.exe -prj G:/digital/test_beh.prj work.test work.glbl 
+ISim P.40xd (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "G:/digital/modules.v" into library work
+Analyzing Verilog file "G:/digital/main.v" into library work
+WARNING:HDLCompiler:751 - "G:/digital/main.v" Line 69: Redeclaration of ansi port OUT is not allowed
+Analyzing Verilog file "G:/digital/test.v" into library work
+Analyzing Verilog file "F:/softwares/14.3/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module MUX3
+Compiling module d_ff
+Compiling module adder_subtractor
+Compiling module decision
+Compiling module top
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 Verilog Units
+Built simulation executable G:/digital/test_isim_beh.exe
+Fuse Memory Usage: 27660 KB
+Fuse CPU Usage: 625 ms
