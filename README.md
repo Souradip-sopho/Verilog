@@ -1,2 +1,2 @@
-# Verilog Digital Design
-This is digital design project written in Verilog.Thus is a part of the academic curriculum.
+# Digital Design using Verilog
+This is digital design project written in Verilog.This is an academic project of the Digital Circuits and Micrprocessor(EE201) course.
